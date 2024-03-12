@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #EEEEEE;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#coffee-mug {
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 0;
+    margin-left: 18%;
+    margin-right: 3%;
+    width: 8%;
+    height: 8%;
+}
+.nav-bar-navs {
+    display: flex;
+    flex-grow: 0.4;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-bar-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-grow:0.1;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+h2 {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+    color: #E0552A;
+    font-weight: 700;
+}
+h3 {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Merriweather;
+    color: #E0552A;
+}
+.main-page {
+    background-image: url(../img/back.png);
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #444545;
+    height: 92%;
+    display: flex; 
+    flex-direction: column;
+}
+.main-page-logo-overlay {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+#logo {
+    width: 25%;
+}
+.main-page-arrow {
+    padding: 16%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+#arrow {
+    width: 6%;
+}
+.bottom-portion {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.bottom-portion-our-coffee {
+    display: flex;
+    flex-direction: row;
+}
+#coffee-pour {
+    padding: 5%;
+    width: 40%;
+}
+.our-coffee-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6%;
+
+}
+.bottom-portion-our-vision {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#vision {
+    padding: 5%;
+    width: 40%;
+}
+.our-vision-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6%;
+    padding-top: 2%;
+}
+h1 {
+    font-family: Merriweather;
+    font-weight: 900;
+    color: #E0552A;
+    font-size: 55px;
+    margin: 2%;
+    margin-left: 0;
+}
+p {
+    font-family: Alegreya Sans;
+    font-size: 20;
+    color: #444545;
+}
+hr {
+    border-color:#E0552A;
+    border-top: 2px #E0552A;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    margin-left: 5%;
+}
+h6 {
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    color:#E0552A;
+}
+.socials {
+    margin-right: 5%;
+}
+.socials img {
+    margin-left: 4%;
+    width: 27%;
+}

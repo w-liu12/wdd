@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #444545;
+}
+.nav-bar {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #EEEEEE;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#coffee-mug {
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 0;
+    margin-left: 18%;
+    margin-right: 3%;
+    width: 8%;
+    height: 8%;
+}
+.nav-bar-navs {
+    display: flex;
+    flex-grow: 0.4;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-bar-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-grow:0.1;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+h2 {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Alegreya Sans SC;
+    color: #E0552A;
+    font-weight: 700;
+}
+h3 {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Merriweather;
+    color: #E0552A;
+}
+#logo {
+    display: block;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.menu {
+    background-color: #EEEEEE;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+h1 {
+    text-align: center;
+    color:#444545;
+    font-family: Merriweather;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+
+}
+.menu-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: 5%;
+}
+h4 {
+    color:#E0552A;
+    font-family: Alegreya Sans SC;
+    font-size: 40px;
+    margin: 0;
+
+}
+p {
+    font-family: Alegreya Sans SC;
+    font-size: 18px;
+    font-weight: 700;
+    color:#444545;
+    margin-bottom: 70px;
+}
+.menu hr{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.menu-coffee {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.menu-coffee-price {
+    display: block;
+    width: 50%;
+    margin-right: 0;
+    text-align: right;
+}
+.menu-coffee-price p {
+    margin-right: 0;
+}
+.coffee-name-price {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-between;
+    width: 60%;
+}
+.right-menu {
+    width: 50%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.menu-tea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.tea-name-price {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-between;
+    width: 60%;
+}
+.menu-tea-name {
+    width: 100%;
+}
+.menu-tea-price {
+    display: block;
+    width: 70%;
+    text-align: right;
+}
+.menu-ice-cream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ice-name-price {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-between;
+    width: 60%;
+}
+.menu-ice-price {
+    display: block;
+    width: 70%;
+    text-align: right;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    margin-left: 5%;
+}
+h6 {
+    font-size: 18px;
+    font-family: Alegreya Sans;
+    color:#EEEEEE;
+}
+.socials {
+    margin-right: 5%;
+}
+.socials img {
+    margin-left: 4%;
+    width: 27%;
+}
