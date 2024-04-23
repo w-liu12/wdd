@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #BBD0C0;
+    background-image: url(../img/target.png);
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+.text {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    font-size: 20px;
+    font-family: Carme;
+    color: #739786;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+h1 {
+    font-size: 125px;
+    font-family: Archivo;
+    color: #37473F;
+    text-shadow: 5px 5px 0px #889c90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+h6 {
+    font-size: 20px;
+    font-family: Carme;
+    color: #D6E4DD;
+}
+.enter-button {
+    background-color: #739786;
+    border-radius: 12px;
+    width: 175px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.enter-button:hover {
+    cursor: pointer;
+    width: 177px;
+    height: 52px;
+    margin-top: 28px;
+    
+}
+/* .enter-button:hover h6{
+    font-size: 21px;
+    
+} */
+/* h6:hover {
+    font-size: 21px;
+} */
+a {
+    text-decoration: none;
+    color: #D6E4DD;
+}
+

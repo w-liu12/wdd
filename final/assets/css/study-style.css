@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #BBD0C0;
+}
+
+/* buttons */
+/* .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 60px;
+}
+h6 {
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-family: Carme;
+    color: #739786;
+}
+h6:hover {
+    cursor: pointer;
+    background-color: #97b4a3;
+    border-radius: 12px;
+    color: #BBD0C0;
+}
+ */
+
+
+/* timer */
+.timer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+/* timer menu */
+.timer-menu {
+    display: flex;
+    flex-direction: row;
+}
+#work {
+    font-size: 20px;
+    font-family: Carme;
+    color: #739786;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+#break {
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-family: Carme;
+    color: #739786;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+#clock {
+    font-size: 20px;
+    font-family: Carme;
+    color: #739786;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+#work:hover {
+    cursor: pointer;
+    background-color: #97b4a3;
+    border-radius: 12px;
+    color: #BBD0C0;
+}
+#break:hover {
+    cursor: pointer;
+    background-color: #97b4a3;
+    border-radius: 12px;
+    color: #BBD0C0;
+}
+#clock:hover {
+    cursor: pointer;
+    background-color: #97b4a3;
+    border-radius: 12px;
+    color: #BBD0C0;
+}
+
+
+
+/*work timer*/
+#timer-display {
+    font-size: 120px;
+    font-family: Archivo;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #37473F;
+    text-shadow: 5px 5px 0px #889c90;
+}
+#start {
+    font-size: 20px;
+    font-family: Carme;
+    color: #D6E4DD;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #739786;
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#start:hover {
+    cursor: pointer;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 20px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+
+/*Tasks*/
+
+#my-tasks {
+    color: #739786;
+    font-family: Carme;
+    font-size: 20px;
+    margin: 0px;
+}
+hr {
+    border: none;
+    background-color:#739786;
+    height: 3px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.tasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+::placeholder {
+    color: #739786;
+    opacity: 30%;
+}
+
+.row{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background: #D6E4DD; 
+    border-radius: 12px; 
+    padding-left: 20px; 
+    margin-bottom: 25px;
+}
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 12px 30px; 
+    background: #97b4a3;
+    color: #BBD0C0; 
+    font-size: 16px; 
+    font-family: Carme;
+    cursor: pointer; 
+    border-radius: 12px;
+}
+button:hover {
+    color: #739786;
+}
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    font-family: Carme;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    color: #739786;
+    background: #BBD0C0;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-image: url(../img/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 10px;
+    left: 8px;
+}
+ul li.checked::before {
+    background-image: url(../img/checked.png);
+    opacity: 60%;
+}
+#list-container {
+    padding-left: 8px;
+}
+ul li.checked {
+    opacity: 30%;
+    text-decoration: line-through;
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #739786;
+}
+ul li span:hover {
+    color: #37473F;
+}
+
+.hidden {
+    display: none;
+}
